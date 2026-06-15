@@ -1,0 +1,29 @@
+POST http://localhost:3000/registro
+
+HTTP/1.1 200 OK
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+Response file saved.
+> 2026-06-15T000951.200.json
+
+Aquí el servidor proceso los datos que se le enviaron correctamente
+gracias a express.json().
+
+--------------------------------------------------------------------
+
+Al realizar la petición POST hacia la ruta incorrecta
+http://localhost:3000/registros, el servidor responde con un código
+de estado 404 Not Found y el mensaje Cannot POST /registros. Esto sucede
+ porque en el archivo server.js solo se definió una ruta explícita
+ para /registro (en singular); al no existir una coincidencia exacta
+ en la tabla de enrutamiento de Express para la dirección modificada,
+ el framework intercepta la solicitud y devuelve automáticamente este
+ error estandarizado. El propósito de este comportamiento es notificar
+ de manera clara al cliente que el recurso solicitado no existe, evitando
+ que la aplicación externa se quede esperando una respuesta
+ indefinidamente y permitiendo identificar rápidamente errores de
+ tipeo en el consumo de la API.

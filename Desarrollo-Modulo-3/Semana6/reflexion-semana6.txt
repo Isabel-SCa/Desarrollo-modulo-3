@@ -1,0 +1,12 @@
+La recepción de información de forma estructurada
+(como un formato JSON) es fundamental porque permite que los
+sistemas informáticos procesen, validen y almacenen los datos de
+manera automática sin intervención humana, reduciendo drásticamente los
+errores de interpretación. Al definir campos específicos (por ejemplo,
+tipo y descripcion), la plataforma puede clasificar las solicitudes en
+tiempo real, priorizar automáticamente las incidencias críticas y
+asignarlas directamente al departamento correspondiente. En la práctica,
+esto optimiza los tiempos de respuesta institucional y permite generar
+estadísticas o mapas de calor sobre las problemáticas reportadas,
+transformando datos aislados en acciones eficientes para la toma de
+decisiones.

@@ -1,0 +1,14 @@
+# IDEs y editores (WebStorm / JetBrains)
+.idea/
+*.iml
+
+# Dependencias de Node (en cualquier nivel del proyecto)
+**/node_modules/
+
+# Archivos de bloqueo de dependencias (opcional, pero recomendado si se generan duplicados)
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Otros proyectos o carpetas externas detectadas por error
+"Proyectos Phyton/"
