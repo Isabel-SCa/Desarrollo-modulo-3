@@ -1,0 +1,8 @@
+Que las comunidades dispongan de una plataforma tecnológica para reportar incidencias
+es fundamental para la gestión eficiente del entorno urbano. En ciudades como Cartagena,
+donde la infraestructura o los servicios pueden presentar fallos sectorizados, un sistema
+centralizado permite canalizar las quejas de forma estructurada. Esto elimina la burocracia
+del reporte manual, agiliza los tiempos de respuesta de las entidades competentes y genera
+métricas reales sobre los problemas más frecuentes. Además, empodera al ciudadano al darle visibilidad
+y seguimiento a su solicitud, garantizando que los datos (como un daño eléctrico o acumulación de basuras)
+no se pierdan, sino que se conviertan en información accionable para la toma de decisiones gubernamentales.
