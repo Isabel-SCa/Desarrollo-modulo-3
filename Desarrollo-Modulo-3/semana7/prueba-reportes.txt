@@ -2,24 +2,3 @@ Al consultar GET /reportes, el servidor devuelve un arreglo en formato JSON
 que contiene el objeto que previamente envié mediante POST. Esto ocurre porque
 el servidor guardó el registro en la variable reportes en memoria.
 
-Ejemplo 1:
-POST http://localhost:3000/registro
-Content-Type: application/json
-
-{
-  "tipo": "Infraestructura",
-  "descripcion": "Daño en alumbrado público"
-}
-
-### Consultar reportes
-GET http://localhost:3000/reportes
-
-Ejemplo 2:
-### Enviar segundo reporte
-POST http://localhost:3000/reportes
-Content-Type: application/json
-
-{
-  "tipo": "Ambiente",
-  "descripcion": "Acumulación de residuos en una zona comunitaria"
-}
