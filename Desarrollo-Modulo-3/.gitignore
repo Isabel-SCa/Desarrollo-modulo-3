@@ -1,0 +1,25 @@
+# IDEs y Editores (WebStorm / JetBrains / VS Code)
+.idea/
+.vscode/
+*.iml
+/shelf/
+/workspace.xml
+/httpRequests/
+/dataSources/
+/dataSources.local.xml
+
+# Dependencias de Node (en cualquier nivel del proyecto)
+**/node_modules/
+
+# Archivos del sistema y logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Carpetas o proyectos externos detectados por error
+Proyectos Phyton/
+Desarrollo Modulo 1/
+
